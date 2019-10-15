@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes(['register' => true]);
+Auth::routes(['register' => false]);
 
 Route::get('/', 'BlogController@getPosts')->name('blog.index');
 Route::get('more', 'BlogController@more')->name('blog.more');
