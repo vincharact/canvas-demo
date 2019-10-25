@@ -176,6 +176,8 @@ return [
         App\Providers\CanvasServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        \Fideloper\Proxy\TrustedProxyServiceProvider::class
+
     ],
 
     /*
